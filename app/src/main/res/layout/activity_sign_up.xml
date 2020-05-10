@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignUpActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="50sp"
+            android:layout_gravity="center_horizontal"
+            android:text="SignUp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:layout_marginTop="50dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:drawableStart="@drawable/ic_email_black_24dp"
+            android:drawableLeft="@drawable/ic_email_black_24dp"
+            android:id="@+id/etEmail"
+            android:background="@drawable/textbox"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="30dp"
+            android:textSize="15sp"
+            android:hint="Enter Your Email ID"
+            android:layout_gravity="center"
+            android:textColor="#000"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:hint="Enter your Password"
+            android:drawableStart="@drawable/ic_lock_black_24dp"
+            android:drawableLeft="@drawable/ic_lock_black_24dp"
+            android:layout_marginTop="20dp"
+            android:textSize="15sp"
+            android:background="@drawable/textbox"
+            android:id="@+id/etPassword"
+            android:inputType="textPassword"
+            android:layout_gravity="center"
+            android:textColor="#000"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:hint="Enter your Name"
+            android:drawableStart="@drawable/ic_account_box_black_24dp"
+            android:drawableLeft="@drawable/ic_account_box_black_24dp"
+            android:layout_marginTop="20dp"
+            android:textSize="15sp"
+            android:background="@drawable/textbox"
+            android:id="@+id/etName"
+            android:layout_gravity="center"
+            android:textColor="#000"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:hint="Enter your 10_digit Number"
+            android:drawableStart="@drawable/ic_phone_android_black_24dp"
+            android:drawableLeft="@drawable/ic_phone_android_black_24dp"
+            android:layout_marginTop="20dp"
+            android:textSize="15sp"
+            android:background="@drawable/textbox"
+            android:id="@+id/etNumber"
+            android:inputType="number"
+            android:layout_gravity="center"
+            android:textColor="#000"/>
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:background="@color/colorAccent"
+            android:text="Register"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/btnSignUp"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</LinearLayout>

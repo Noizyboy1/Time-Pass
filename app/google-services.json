@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "340819810362",
+    "firebase_url": "https://time-pass-dc674.firebaseio.com",
+    "project_id": "time-pass-dc674",
+    "storage_bucket": "time-pass-dc674.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:340819810362:android:ed9c4a5ef7dbeb67c43d03",
+        "android_client_info": {
+          "package_name": "com.example.timepass"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "340819810362-9ntkqefg2irbme8n9u512t3ign5vpvp4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.timepass",
+            "certificate_hash": "0dcae339ff40ceb0efc053a827e0518b0d8bf04f"
+          }
+        },
+        {
+          "client_id": "340819810362-0g3l74hm86dl3cjb3g3tfkbcgn0k3o9e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFSW-O3z66aoI4mezb9v72wIWMvDHQqQg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "340819810362-0g3l74hm86dl3cjb3g3tfkbcgn0k3o9e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
